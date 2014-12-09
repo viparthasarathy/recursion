@@ -1,18 +1,4 @@
-# def merge_sort(array, empty_array=[])
-#   empty_array ||= []
-#   a = array[0...array.length/2]
-#   b = array[array.length/2...array.length]
-#   if a.length == 1 and b.length == 1
-#   	if a[0] < b[0]
-#   	  empty_array.push(a[0])
-#   	else
-#   	  empty_array.push(b[0])
-#   	end
 
-#   else
-#   	merge_sort(a, empty_array)
-#   	merge_sort(b, empty_array)
-#   end
 
 def merge_sort(array)
   return array if array.length == 1 	
